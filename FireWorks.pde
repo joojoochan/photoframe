@@ -7,7 +7,7 @@ class Particle{
         startPos = new PVector();
         endPos = new PVector();
         currPos = new PVector();
-        co=color(random(0,255),random(0,255),random(0,255));
+        co=color(255,255,255);
     }
     void resetParticle(float x, float y){
         this.startPos.set(x,y,0);
