@@ -54,7 +54,7 @@ class FireWorks{
             points.add(p);
         }
         explosionDuration=random(5000,8000);
-        isRandomColour=true;
+        isRandomColour=false;
         reset();
     }
     void reset(){
